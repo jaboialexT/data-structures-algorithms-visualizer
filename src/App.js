@@ -1,8 +1,8 @@
 import "./App.css";
-import DataStructures from "./Pages/Data-Structures";
-import Home from "./Pages/Home";
-import Pathfinding from "./Pages/Pathfinding";
-import Sorting from "./Pages/Sorting";
+import DataStructures from "./Navbar/Pages/Data-Structures/Data-Structures";
+import Home from "./Navbar/Pages/Home";
+import Pathfinding from "./Navbar/Pages/Pathfinding/Pathfinding";
+import Sorting from "./Navbar/Pages/Sorting/Sorting";
 import { Route, Router, Routes } from "react-router-dom";
 
 import Navbar from "./Navbar/Navbar.js";
