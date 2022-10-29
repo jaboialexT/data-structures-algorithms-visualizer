@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import DataStructures from "./Pages/Data-Structures";
+import Home from "./Pages/Home";
+import Pathfinding from "./Pages/Pathfinding";
+import Sorting from "./Pages/Sorting";
+import { Route, Router, Routes } from "react-router-dom";
+
+import Navbar from "./Navbar/Navbar.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/DataStructures" element={<DataStructures />} />
+          <Route path="/Pathfinding" element={<Pathfinding />} />
+          <Route path="/Sorting" element={<Sorting />} />
+        </Routes>
+      </div>
+    </>
   );
 }
 
