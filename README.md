@@ -4,6 +4,8 @@ Because I'm having so much trouble with my Data Structures and Algorithms class 
 
 To-Do List:
 - [x] Nav Bar 🎉 10/28/2022 - A.Thai
+- - [ ] Drop Down Menus
+- - [ ] Animations 
 - [ ] Data Structures Page
 - - [ ] Linked List
 - - [ ] Stacks
